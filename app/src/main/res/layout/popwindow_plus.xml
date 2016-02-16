@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e0bf9c9c"
+    android:gravity="bottom"
+    android:padding="10dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="授权获取"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="上传照片"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_launcher"
+        />
+</LinearLayout>
